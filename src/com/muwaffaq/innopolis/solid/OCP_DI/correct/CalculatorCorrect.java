@@ -9,7 +9,7 @@ package com.muwaffaq.innopolis.solid.OCP_DI.wrong;
 // DI : high = Abstract class
 // low : classes
 //
- class CalculatorWrong {
+ class CalculatorCorrect {
     private double left;
     private double right;
 
@@ -34,7 +34,7 @@ package com.muwaffaq.innopolis.solid.OCP_DI.wrong;
     }
 
     public static void main(String[] args) {
-        CalculatorWrong calculator = new CalculatorWrong();
+        CalculatorCorrect calculator = new CalculatorCorrect();
         calculator.calculate(Operation.ADD);
         calculator.calculate(Operation.ADD);
 
