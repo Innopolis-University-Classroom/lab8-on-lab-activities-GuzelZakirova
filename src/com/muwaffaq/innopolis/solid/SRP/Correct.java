@@ -1,0 +1,22 @@
+package com.muwaffaq.innopolis.solid.SRP;
+import com.muwaffaq.innopolis.solid.SRP.correct.Product;
+
+import java.util.List;
+
+/**
+ * ❌ ❌ ❌ ❌
+ * how many responsibilities does it have?
+ *
+ * SRP :
+ * a class should only have one responsibility
+ * it should only have one reason to change
+ */
+
+public class Cart {
+
+    List<Product> products;
+    double totals;
+    String token;
+
+
+}
